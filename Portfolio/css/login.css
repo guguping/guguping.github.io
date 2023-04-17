@@ -1,0 +1,46 @@
+body {
+  background: url(../images/11.jpg) no-repeat 50% 50% fixed;
+  background-size: cover;
+  max-width: 2000px;
+  /* 최대 너비 지정 */
+  display: flex;
+  /* 부모 요소를 flex 컨테이너로 만듦 */
+  justify-content: center;
+  /* 가로 방향으로 중앙 정렬 */
+}
+.container {
+  width: 400px;
+}
+#icon1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: salmon;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+label {
+  color: salmon;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  font-size: large;
+}
+h6 {
+  margin: 20px;
+  font-weight: bold;
+}
+#loginText {
+  margin-top: 11%;
+}
+#but {
+  margin-top: 30px;
+}
+#id {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: none;
+}
+#login-result {
+  white-space: pre-wrap;
+}

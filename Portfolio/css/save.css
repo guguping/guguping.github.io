@@ -54,3 +54,14 @@ label:not([for="success-outlined"], [for="danger-outlined"]) {
 #sample6_detailAddress {
   width: 50%;
 }
+#icon1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: salmon;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+a {
+  text-decoration: none;
+  border-bottom: none;
+}

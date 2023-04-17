@@ -18,7 +18,10 @@ body {
 #footer-background {
   background-color: skyblue;
 }
-
+#test1 {
+  margin-top: 20%;
+  text-align: center;
+}
 footer {
   position: fixed;
   bottom: 0;
