@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/headers.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class=" d-flex flex-wrap align-items-center justify-content-center
+        justify-content-md-between py-3 border-bottom form-control col-md-3 mb-2 mb-md-0 " id="header-background">
+
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                <svg class="bi" width="40" height="10" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+            <div id="menu-button">
+                <button class="btn btn-warning" id="button-1" onmousemove="button_nc1()" onmouseleave="button_og1()"
+                    id="button-1">HOME</button>
+                <button class=" btn btn-warning" id="button-2" onmousemove="button_nc2()" onmouseleave="button_og2()"
+                    id="button-2">TAG</button>
+                <button class=" btn btn-warning" onmousemove="button_nc3()" onmouseleave="button_og3()"
+                    id="button-3">ARCHIVES</button>
+                <button class=" btn btn-warning" onmousemove="button_nc4()" onmouseleave="button_og4()"
+                    id="button-4">ARCHIVES</button>
+            </div>
+            <div class="col-md-3" id="member-button">
+                <button type="button" class="btn btn-success me-2" id="login-button">Login</button>
+                <button type="button" class="btn btn-danger me-2" onclick="goSave()" id="signUp-button">Sign-up</button>
+            </div>
+        </header>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center border-top form-control"
+            id="footer-background">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Company, Inc</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="10">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- <div>
+        <button onclick="goLogin()">로그인</button>
+        <button onclick="fun1()">함수호출</button>
+    </div> -->
+</body>
+
+</html>

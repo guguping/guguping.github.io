@@ -6,6 +6,8 @@ main:
     url: /tags/
   - title: "By Year"
     url: /year-archive/
+  - title: "Portfolio"
+    url: ../Portfolio/index.html
   - title: "Search"
     url: /search/
 

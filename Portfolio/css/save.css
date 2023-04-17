@@ -1,0 +1,56 @@
+body {
+  background: url(../images/11.jpg) no-repeat 50% 50% fixed;
+  background-size: cover;
+  max-width: 2000px;
+  /* 최대 너비 지정 */
+  display: flex;
+  /* 부모 요소를 flex 컨테이너로 만듦 */
+  justify-content: center;
+  /* 가로 방향으로 중앙 정렬 */
+}
+
+label {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.container {
+  width: 400px;
+}
+
+#member-domain-id {
+  width: 11%;
+}
+
+#but {
+  margin: 10px;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+#gender-tag {
+  font-size: large;
+  color: salmon;
+  margin-top: 20px;
+}
+
+#gender {
+  text-align: center;
+}
+
+label:not([for="success-outlined"], [for="danger-outlined"]) {
+  color: salmon;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  font-size: large;
+}
+
+#post-select {
+  width: 35%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#sample6_detailAddress {
+  width: 50%;
+}

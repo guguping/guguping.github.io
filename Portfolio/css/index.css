@@ -1,0 +1,38 @@
+body {
+  background: url(../images/22.jpg) no-repeat 50% 50% fixed;
+  background-size: cover;
+  max-width: 2000px;
+  /* 최대 너비 지정 */
+  display: flex;
+  /* 부모 요소를 flex 컨테이너로 만듦 */
+  justify-content: center;
+  /* 가로 방향으로 중앙 정렬 */
+}
+#header-background {
+  background-color: skyblue;
+}
+#footer-background {
+  background-color: skyblue;
+  position: fixed;
+  bottom: 0;
+  width: 67.5%;
+}
+a {
+  text-decoration: none;
+}
+#menu-button {
+  width: 20px;
+}
+div > #button-1,
+#button-2,
+#button-3,
+#button-4 {
+  margin-right: 50px;
+}
+#member-button {
+  width: 260px;
+}
+div > #login-button,
+#signUp-button {
+  margin-left: 30px;
+}
