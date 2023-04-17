@@ -32,3 +32,11 @@ const button_og3 = () => {
   const onbutton = document.getElementById("button-3");
   onbutton.className = "btn btn-warning";
 };
+const button_nc4 = () => {
+  const onbutton = document.getElementById("button-4");
+  onbutton.className = "btn btn-success";
+};
+const button_og4 = () => {
+  const onbutton = document.getElementById("button-4");
+  onbutton.className = "btn btn-warning";
+};

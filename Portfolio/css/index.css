@@ -7,32 +7,73 @@ body {
   /* 부모 요소를 flex 컨테이너로 만듦 */
   justify-content: center;
   /* 가로 방향으로 중앙 정렬 */
+  margin: 0;
+  padding: 0;
 }
+
 #header-background {
   background-color: skyblue;
 }
+
 #footer-background {
   background-color: skyblue;
+}
+
+footer {
   position: fixed;
   bottom: 0;
-  width: 67.5%;
+  right: 0;
 }
-a {
-  text-decoration: none;
+
+header {
+  position: fixed;
+  left: 0;
+}
+
+@media screen and (max-width: 2000px) and (min-width: 800px) {
+  #button-1 {
+    width: 20%;
+    margin-right: 10px;
+  }
+  #button-2 {
+    width: 20%;
+    margin-right: 10px;
+  }
+  #button-3 {
+    width: 20%;
+    margin-right: 10px;
+  }
+  #button-4 {
+    width: 20%;
+    margin-right: 10px;
+  }
+  #login-button {
+    width: 20%;
+  }
+  #signUp-button {
+    width: 20%;
+    margin-left: 27px;
+  }
+
+  #menu-button {
+    margin-left: 20%;
+    margin-bottom: 10px;
+    order: 1; /* 순서 변경 */
+  }
+
+  #member-button {
+    margin-left: 37.9%;
+    margin-top: 10px;
+    order: 2; /* 순서 변경 */
+  }
 }
 #menu-button {
-  width: 20px;
-}
-div > #button-1,
-#button-2,
-#button-3,
-#button-4 {
-  margin-right: 50px;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  order: 1; /* 순서 변경 */
 }
 #member-button {
-  width: 260px;
-}
-div > #login-button,
-#signUp-button {
-  margin-left: 30px;
+  margin-left: 37.3%;
+  margin-top: 10px;
+  order: 2; /* 순서 변경 */
 }
