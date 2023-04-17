@@ -2,44 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
-    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-    <script src="https://kit.fontawesome.com/594b70caaf.js" crossorigin="anonymous"></script>
-    <script src="./js/login.js"></script>
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+  <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+  <script src="https://kit.fontawesome.com/594b70caaf.js" crossorigin="anonymous"></script>
+  <script src="./js/login.js"></script>
+  <link rel="stylesheet" href="./css/login.css" />
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <div id="loginText">
-        <form action="/member_login" name="login_from" method="post" onsubmit="return login_check()">
-            <div class="container" id="icon1" style="display:flex;align-items:center;">
-                <h1 style="margin:0;"><a href="./index.html"><i class="fa-solid fa-paw fa-bounce fa-2xl" id="icon1"
-                            style="color: #db0f0f;"></i></a></h1>
-                <h2 style="margin-top: 50px; margin-left: 15px;">로그인 페이지</h2>
-            </div>
-            <div class="container">
-                <label for="login-id">아이디</label>
-                <div id="id" class="input-group">
-                    <input type="text" class="form-control" name="loginId" id="login-id" onblur="loginId_check()" />
-                    <span class="input-group-text">@naver.com</span>
-                </div>
-                <label for="login-pw">비밀번호</label>
-                <div id="pw" class="input-group">
-                    <input type="password" class="form-control" name="loginPw" id="login-pw" onblur="loginPw_check()" />
-                </div>
-            </div>
-            <h6 id="login-result"></h6>
-            <div class="container" id="but">
-                <button class="form-control btn btn-danger">회원 가입</button>
-            </div>
-        </form>
-    </div>
+  <div id="loginText">
+    <form action="/member_login" name="login_from" method="post" onsubmit="return login_check()">
+      <div class="container" id="icon1" style="display: flex; align-items: center">
+        <h4>
+          <a href="./index.html"><i class="fa-solid fa-paw fa-beat-fade fa-2xl" style="color: #e97575"></i></a>
+        </h4>
+        <h2>로그인 페이지</h2>
+      </div>
+      <div class="container">
+        <label for="login-id">아이디</label>
+        <div id="id" class="input-group">
+          <input type="text" class="form-control" name="loginId" id="login-id" onblur="loginId_check()" />
+          <span class="input-group-text">@naver.com</span>
+        </div>
+        <label for="login-pw">비밀번호</label>
+        <div id="pw" class="input-group">
+          <input type="password" class="form-control" name="loginPw" id="login-pw" onblur="loginPw_check()" />
+        </div>
+      </div>
+      <h6 id="login-result"></h6>
+      <div class="container" id="but">
+        <button class="form-control btn btn-danger">회원 가입</button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>

@@ -10,7 +10,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 #header-background {
   background-color: skyblue;
 }
@@ -18,9 +17,24 @@ body {
 #footer-background {
   background-color: skyblue;
 }
-#test1 {
-  margin-top: 20%;
-  text-align: center;
+#Portfoliomain {
+    position: fixed;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450%;
+    height: 570px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #dadce0, 0px 0px 20px 10px rgba(0,0,0,0.5);
+}
+#PortfolioTilte{
+  font-weight: bold;
+  color: dark;
+}
+@media only screen and (max-width: 768px) {
+    #Portfoliomain {
+        width: 93%;
+    }
 }
 footer {
   position: fixed;
@@ -31,6 +45,14 @@ footer {
 header {
   position: fixed;
   left: 0;
+}
+#button-1,
+#button-2,
+#button-3,
+#button-4,
+#login-button,
+#signUp-button {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 2000px) and (min-width: 800px) {
@@ -71,12 +93,13 @@ header {
   }
 }
 #menu-button {
-  margin-left: 20%;
+  margin-left: 17.3%;
   margin-bottom: 10px;
-  order: 1; /* 순서 변경 */
+  order: 1;
 }
 #member-button {
-  margin-left: 37.3%;
+  margin-left: 37.9%;
   margin-top: 10px;
   order: 2; /* 순서 변경 */
 }
+

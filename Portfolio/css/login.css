@@ -24,8 +24,9 @@ label {
   font-size: large;
   font-weight: bold;
 }
-h6 {
+h4 {
   margin: 20px;
+  margin-bottom: 0;
   font-weight: bold;
 }
 #loginText {
@@ -44,4 +45,9 @@ a {
 }
 #login-result {
   white-space: pre-wrap;
+}
+h2{
+  margin-top: 50px;
+  margin-left: 15px;
+  font-weight: bold;
 }
