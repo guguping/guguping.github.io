@@ -54,6 +54,15 @@ header {
 #signUp-button {
   font-weight: bold;
 }
+#button-1:hover,
+#button-2:hover,
+#button-3:hover,
+#button-4:hover,
+#login-button:hover,
+#signUp-button:hover {
+  color: black;
+  background-color: rgb(108, 235, 108);
+}
 
 @media screen and (max-width: 2000px) and (min-width: 784px) {
   #button-1 {
