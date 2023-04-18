@@ -17,14 +17,28 @@ body {
 #footer-background {
   background-color: skyblue;
 }
-#Portfoliomain {
-  position: fixed;
-  top: 16%;
+#Portfoliomain1 {
+  position: absolute;
+  top: 13%;
   left: 50%;
   transform: translate(-50%);
   width: 450%;
   height: 78%;
   text-align: center;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px 2px #dadce0, 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+#Portfoliomain2 {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 450%;
+  height: 78%;
+  text-align: center;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 1px 1px 5px 2px #dadce0, 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
 }
 #PortfolioTilte {
@@ -99,12 +113,6 @@ header {
     margin-bottom: 10px;
     order: 1; /* 순서 변경 */
   }
-
-  #member-button {
-    margin-left: 37.27%;
-    margin-top: 10px;
-    order: 2; /* 순서 변경 */
-  }
 }
 
 @media screen and (max-width: 783px) and (min-width: 400px) {
@@ -137,17 +145,6 @@ header {
     margin-bottom: 10px;
     order: 1; /* 순서 변경 */
   }
-
-  #member-button {
-    text-align: center;
-    margin-top: 2px;
-    order: 2; /* 순서 변경 */
-  }
-}
-#Portfoliomain {
-  display: none;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 #name-tag,
 #address-tag,
@@ -192,4 +189,53 @@ header {
 #itsme {
   margin-top: 3%;
   margin-bottom: 10px;
+}
+#Portfolio-img1{
+  margin-top: 3%;
+  height: 25%;
+  width: 25%;
+  object-fit: cover;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+}
+#Portfolio-img2{
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 25%;
+  width: 28.6%;
+  object-fit: cover;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+}
+#Projects-tag1{
+  margin-top: 5%;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+#Projects-title1{
+  margin-top: 1%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+#Projects-text1{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+#member-button{
+  margin-top: 1%;
+}
+#login-button{
+  margin-left: 11%;
+}
+#login-button{
+  margin-right: 2%;
 }

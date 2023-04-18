@@ -4,22 +4,27 @@ const goSave = () => {
 const goLogin = () => {
   location.href = "login.html";
 };
-// portfoliomainShow = () => {
-//   Portfoliomain = document.getElementById("Portfoliomain");
-//   if (Portfoliomain.style.display === "none") {
-//     Portfoliomain.style.display = "block";
-//   } else {
-//     Portfoliomain.style.display = "none";
-//   }
-// };
+
 window.onload = function () {
-  const Portfoliomain = document.getElementById("Portfoliomain");
-  const button = document.getElementById("button-1");
-  button.addEventListener("click", function () {
-    if (Portfoliomain.style.display === "block") {
-      Portfoliomain.style.display = "none";
+  const Portfoliomain1 = document.getElementById("Portfoliomain1");
+  const button1 = document.getElementById("button-1");
+  button1.addEventListener("click", function () {
+    if (Portfoliomain1.style.display === "block") {
+      Portfoliomain1.style.display = "none";
     } else {
-      Portfoliomain.style.display = "block";
+      Portfoliomain2.style.display = "none";
+      Portfoliomain1.style.display = "block";
+    }
+  });
+
+  const Portfoliomain2 = document.getElementById("Portfoliomain2");
+  const button2 = document.getElementById("button-2");
+  button2.addEventListener("click", function () {
+    if (Portfoliomain2.style.display === "block") {
+      Portfoliomain2.style.display = "none";
+    } else {
+      Portfoliomain1.style.display = "none";
+      Portfoliomain2.style.display = "block";
     }
   });
 };

@@ -20,58 +20,71 @@
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom form-control col-md-3 mb-2 mb-md-0"
       id="header-background">
       <div id="menu-button" class="container">
-        <button class="btn btn-warning" id="button-1" onclick="portfoliomainShow()">
+        <button class="btn btn-warning" id="button-1" onclick="portfoliomainShow1()">
           About Me
         </button>
-        <button class="btn btn-warning" onclick="location.href='https://github.com/guguping'" id="button-2">
+        <button class="btn btn-warning" id="button-2" onclick="portfoliomainShow2()">
+          Projects
+        </button>
+        <button class="btn btn-warning" id="button-3" onclick="location.href='https://github.com/guguping'">
           GitHub
         </button>
-        <button class="btn btn-warning" onclick="location.href='https://guguping.github.io'" id="button-3">
-          GitBlog
-        </button>
-        <button class="btn btn-warning" onclick="location.href='https://guping.tistory.com/'" id="button-4">
+        <button class="btn btn-warning" id="button-4" onclick="location.href='https://guping.tistory.com/'">
           Tistory
-        </button>
-      </div>
-      <div class="container" id="member-button">
-        <button type="button" class="btn btn-success" id="login-button" onclick="goLogin()">
-          Login
-        </button>
-        <button type="button" class="btn btn-danger me-2" onclick="goSave()" id="signUp-button">
-          Sign-up
         </button>
       </div>
     </header>
   </div>
-  <div class="container" id="Portfoliomain">
-    <h1 id="PortfolioTilte">About me !</h1>
-    <div class="container">
-      <span><img src="./images/about_me_img.png" alt="" id="itsme"></span>
+  <div>
+    <div class="container form-control" id="Portfoliomain1">
+      <h1 id="PortfolioTilte">About me !</h1>
+      <div class="container">
+        <span><img src="./images/about_me_img.png" alt="" id="itsme"></span>
+      </div>
+      <div class="container form-control" id="about-me">
+        <div id="name-tag1">
+          <div id="name-tag">이름</div>
+          <div id="name">이호섭</div>
+        </div>
+        <div id="birth-tag2">
+          <div id="birth-tag">생년월일</div>
+          <div id="birth">96.02.20</div>
+        </div>
+        <div id="address-tag3">
+          <div id="address-tag">주소지</div>
+          <div id="address">인천광역시 용현동</div>
+        </div>
+        <div id="phone-tag4">
+          <div id="phone-tag">연락처</div>
+          <div id="phone">010-****-****</div>
+        </div>
+        <div id="email-tag5">
+          <div id="email-tag">이메일</div>
+          <div id="email">qkfhandur@naver.com</div>
+        </div>
+        <div id="education-tag6">
+          <div id="education-tag">학력</div>
+          <div id="education">인천일보아카데미</div>
+        </div>
+      </div>
     </div>
-    <div class="container form-control" id="about-me">
-      <div id="name-tag1">
-        <div id="name-tag">이름</div>
-        <div id="name">이호섭</div>
-      </div>
-      <div id="birth-tag2">
-        <div id="birth-tag">생년월일</div>
-        <div id="birth">96.02.20</div>
-      </div>
-      <div id="address-tag3">
-        <div id="address-tag">주소지</div>
-        <div id="address">인천광역시 용현동</div>
-      </div>
-      <div id="phone-tag4">
-        <div id="phone-tag">연락처</div>
-        <div id="phone">010-****-****</div>
-      </div>
-      <div id="email-tag5">
-        <div id="email-tag">이메일</div>
-        <div id="email">qkfhandur@naver.com</div>
-      </div>
-      <div id="education-tag6">
-        <div id="education-tag">학력</div>
-        <div id="education">알빠노?</div>
+    <div class="container form-control" id="Portfoliomain2">
+      <h1 id="PortfolioTilte">Personal project !</h1>
+      <div id="save_form">
+        <img src="./images/회원가입_Portfolio.io.png" id="Portfolio-img1" alt="Avatar" class="image">
+        <img src="./images/로그인_Portfolio.png" id="Portfolio-img2" alt="Avatar" class="image">
+        <div class="container" id="member-button">
+          <button type="button" class="btn btn-danger me-2" onclick="goSave()" id="signUp-button">
+            Sign-up
+          </button>
+          <button type="button" class="btn btn-success" id="login-button" onclick="goLogin()">
+            Login
+          </button>
+        </div>
+        <div class="container form-control" id="Projects-tag1">
+          <div id="Projects-title1">회원가입</div>
+          <div id="Projects-text1">인천일보아카데미 HTML시간에 배운 내용을 바탕으로 제작한 회원가입 폼</div>
+        </div>
       </div>
     </div>
   </div>
