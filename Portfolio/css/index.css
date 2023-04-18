@@ -110,7 +110,7 @@ header {
     margin-right: 2px;
   }
   #login-button {
-    width: 20%;
+    width: 21%;
     margin-right: 6.5px;
   }
   #signUp-button {
@@ -124,7 +124,7 @@ header {
   }
 
   #member-button {
-    margin-left: 5.9%;
+    margin-left: 5%;
     text-align: center;
     margin-top: 2px;
     order: 2; /* 순서 변경 */
