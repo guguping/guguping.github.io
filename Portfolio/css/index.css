@@ -55,7 +55,7 @@ header {
   font-weight: bold;
 }
 
-@media screen and (max-width: 2000px) and (min-width: 800px) {
+@media screen and (max-width: 2000px) and (min-width: 784px) {
   #button-1 {
     width: 19%;
     margin-right: 10px;
@@ -89,6 +89,44 @@ header {
   #member-button {
     margin-left: 37.27%;
     margin-top: 10px;
+    order: 2; /* 순서 변경 */
+  }
+}
+@media screen and (max-width: 783px) and (min-width: 400px) {
+  #button-1 {
+    width: 24.5%;
+    margin-right: 2px;
+  }
+  #button-2 {
+    width: 20%;
+    margin-right: 2px;
+  }
+  #button-3 {
+    width: 20%;
+    margin-right: 2px;
+  }
+  #button-4 {
+    width: 20%;
+    margin-right: 2px;
+  }
+  #login-button {
+    width: 20%;
+    margin-right: 6.5px;
+  }
+  #signUp-button {
+    width: 21%;
+  }
+
+  #menu-button {
+    text-align: center;
+    margin-bottom: 10px;
+    order: 1; /* 순서 변경 */
+  }
+
+  #member-button {
+    margin-left: 5.9%;
+    text-align: center;
+    margin-top: 2px;
     order: 2; /* 순서 변경 */
   }
 }
