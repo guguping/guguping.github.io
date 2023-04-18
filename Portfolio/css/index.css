@@ -92,6 +92,7 @@ header {
     order: 2; /* 순서 변경 */
   }
 }
+
 @media screen and (max-width: 783px) and (min-width: 400px) {
   #button-1 {
     width: 24.5%;
@@ -124,7 +125,6 @@ header {
   }
 
   #member-button {
-    margin-left: 5%;
     text-align: center;
     margin-top: 2px;
     order: 2; /* 순서 변경 */
