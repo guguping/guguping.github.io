@@ -139,3 +139,6 @@ header {
     order: 2; /* 순서 변경 */
   }
 }
+#Portfoliomain {
+  display: none;
+}

@@ -1,42 +1,25 @@
-const fun1 = () => {
-  alert("앙잉옹");
-};
 const goSave = () => {
   location.href = "save.html";
 };
 const goLogin = () => {
   location.href = "login.html";
 };
-
-// const button_nc1 = () => {
-//   const onbutton = document.getElementById("button-1");
-//   onbutton.className = "btn btn-success";
+// portfoliomainShow = () => {
+//   Portfoliomain = document.getElementById("Portfoliomain");
+//   if (Portfoliomain.style.display === "none") {
+//     Portfoliomain.style.display = "block";
+//   } else {
+//     Portfoliomain.style.display = "none";
+//   }
 // };
-// const button_og1 = () => {
-//   const onbutton = document.getElementById("button-1");
-//   onbutton.className = "btn btn-warning";
-// };
-// const button_nc2 = () => {
-//   const onbutton = document.getElementById("button-2");
-//   onbutton.className = "btn btn-success";
-// };
-// const button_og2 = () => {
-//   const onbutton = document.getElementById("button-2");
-//   onbutton.className = "btn btn-warning";
-// };
-// const button_nc3 = () => {
-//   const onbutton = document.getElementById("button-3");
-//   onbutton.className = "btn btn-success";
-// };
-// const button_og3 = () => {
-//   const onbutton = document.getElementById("button-3");
-//   onbutton.className = "btn btn-warning";
-// };
-// const button_nc4 = () => {
-//   const onbutton = document.getElementById("button-4");
-//   onbutton.className = "btn btn-success";
-// };
-// const button_og4 = () => {
-//   const onbutton = document.getElementById("button-4");
-//   onbutton.className = "btn btn-warning";
-// };
+window.onload = function () {
+  const Portfoliomain = document.getElementById("Portfoliomain");
+  const button = document.getElementById("button-1");
+  button.addEventListener("click", function () {
+    if (Portfoliomain.style.display === "block") {
+      Portfoliomain.style.display = "none";
+    } else {
+      Portfoliomain.style.display = "block";
+    }
+  });
+};
