@@ -12,8 +12,9 @@ window.onload = function () {
     if (Portfoliomain1.style.display === "block") {
       Portfoliomain1.style.display = "none";
     } else {
-      Portfoliomain2.style.display = "none";
       Portfoliomain1.style.display = "block";
+      Portfoliomain2.style.display = "none";
+      Portfoliomain3.style.display = "none";
     }
   });
 
@@ -25,10 +26,19 @@ window.onload = function () {
     } else {
       Portfoliomain1.style.display = "none";
       Portfoliomain2.style.display = "block";
+      Portfoliomain3.style.display = "none";
     }
   });
-};
-const Bloglink = () => {
-  window.open("https://guping.tistory.com/", "_blank");
-  window.open("https://guguping.github.io/", "_blank");
+
+  const Portfoliomain3 = document.getElementById("Portfoliomain3");
+  const button4 = document.getElementById("button-4");
+  button4.addEventListener("click", function () {
+    if (Portfoliomain3.style.display === "block") {
+      Portfoliomain3.style.display = "none";
+    } else {
+      Portfoliomain1.style.display = "none";
+      Portfoliomain2.style.display = "none";
+      Portfoliomain3.style.display = "block";
+    }
+  });
 };
