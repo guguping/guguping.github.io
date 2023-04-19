@@ -28,3 +28,7 @@ window.onload = function () {
     }
   });
 };
+const Bloglink = () => {
+  window.open("https://guping.tistory.com/", "_blank");
+  window.open("https://guguping.github.io/", "_blank");
+};
