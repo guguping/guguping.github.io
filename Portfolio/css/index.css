@@ -82,7 +82,9 @@ header {
 #button-3,
 #button-4,
 #login-button,
-#signUp-button {
+#Tstory-button,
+#signUp-button,
+#GitBig-button {
   font-weight: bold;
 }
 #button-1:hover,
@@ -90,7 +92,9 @@ header {
 #button-3:hover,
 #button-4:hover,
 #login-button:hover,
-#signUp-button:hover {
+#Tstory-button:hover,
+#signUp-button:hover,
+#GitBig-button:hover {
   color: black;
   background-color: rgb(108, 235, 108);
 }
@@ -116,7 +120,14 @@ header {
     width: 19%;
     margin-right: 11.5px;
   }
+  #Tstory-button {
+    width: 19%;
+    margin-right: 11.5px;
+  }
   #signUp-button {
+    width: 19%;
+  }
+  #GitBig-button {
     width: 19%;
   }
 
@@ -148,7 +159,14 @@ header {
     width: 21%;
     margin-right: 6.5px;
   }
+  #Tstory-button {
+    width: 21%;
+    margin-right: 6.5px;
+  }
   #signUp-button {
+    width: 21%;
+  }
+  #GitBig-button {
     width: 21%;
   }
 
@@ -288,6 +306,12 @@ header {
 #login-button {
   margin-left: 11%;
 }
+#Tstory-button {
+  margin-left: 11%;
+}
 #login-button {
+  margin-right: 2%;
+}
+#Tstory-button {
   margin-right: 2%;
 }
